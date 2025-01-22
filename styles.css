@@ -1,0 +1,43 @@
+body {
+    display:flex;
+    flex-direction: row;
+    width:1200px;
+    margin:0 auto;
+}
+div {
+    width: 100px;
+    height:100px;
+    background-color:aqua;
+    border:solid 2px blue;
+    margin:10px;
+}
+.a {
+    border-radius:5px;
+}
+.b {
+    border-radius:20px;
+}
+.c {
+    border-radius:50px;
+}
+.d {
+    border-radius:50px 50px 50px 5px;
+}
+.e {
+    border-radius:50px 5px 50px 50px;
+}
+.f {
+    border-radius:100px 0 0 0;
+}
+.g {
+    border-radius:0px 50px 50px 0px;
+}
+.h {
+    border-radius:0px 50px 50px 50px;
+}
+.i {
+    border-radius:100px 0px 100px 0px;
+}
+.j {
+    border-radius:20px 20px 0px 0px;
+}
